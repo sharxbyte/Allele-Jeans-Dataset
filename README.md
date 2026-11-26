@@ -12,6 +12,8 @@ Each participant:
 
 This build has **no sign-in and no encryption**: exports are plain files meant to be sent to Allele.
 
+> **Not open source.** This is a test distribution for gathering training data only. All rights reserved (see [LICENSE](LICENSE)); building or distributing it requires written authorisation from Allele Jeans Company.
+
 ## Download (Android)
 
 Get the APK from the [Releases](../../releases) page. Allow "install unknown apps" when prompted.
