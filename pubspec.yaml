@@ -1,0 +1,31 @@
+name: allele_collect
+description: "Allele Collect: body-measurement dataset collection app"
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.5+9
+  google_mlkit_pose_detection: ^1.0.3
+  sensors_plus: ^4.0.2
+  flutter_tts: ^3.8.5
+  image: ^4.3.0
+  crypto: ^3.0.7 # SHA-256 fingerprint of each signed agreement (not encryption)
+  path_provider: ^2.1.2
+  share_plus: ^12.0.2
+  archive: ^3.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/legal/training_consent.md
+    - assets/legal/dataset_trust_agreement.md
